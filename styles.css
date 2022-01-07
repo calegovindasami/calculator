@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cadetblue;
+  background-color: #1f2833;
 }
 
 #calculator {
@@ -62,14 +62,13 @@ button {
 .keypad #equal {
   width: 210px;
   height: 80px;
-  background-color: lightslategray;
 }
 #plus,
 #minus,
 #times,
-#division {
+#divide {
+  background-color: coral;
   color: black;
-  background-color: #d17176;
 }
 
 #delete,
@@ -87,7 +86,7 @@ button {
   font-weight: bold;
   width: 405px;
   height: 105px;
-  background-color: white;
+  background-color: #a9a9a9;
   border-radius: 6px;
   color: black;
 }
@@ -97,4 +96,9 @@ button:hover {
 }
 button:active {
   transform: scale(0.95);
+}
+
+#equal {
+  background-color: #a9a9a9;
+  color: black;
 }
